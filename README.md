@@ -1,5 +1,9 @@
 # Reducing Food Wastage using Artificial Intelligence
 
+# Note:
+# Refer to [final output file](https://github.com/AshrithaGadaputi/HackTheNight_BinaryPixels/blob/master/ui_final.py)
+
+
 # Problem
 * The food waste problem faced by restaurants in India is a significant issue that contributes to the overall food waste problem in the country. 
 * Some factors contributing to food waste in restaurants include over-preparation of food, poor food storage practices, inaccurate forecasting of demand, and cultural norms around serving large portions. 
@@ -62,10 +66,50 @@ If the restaurant owner is able to recommend food that the customer will like ef
 * Once the nearest NGO's are determined, we send a "Whatsapp message" automatically asking whether the NGO is willing to accept the food item OR not.
 * In case one of the NGO's are not willing to, then we will make the API to find the next nearest NGO, and the process would continue. 
 
+![Alt NGO Connectivity](ngo_connectivity.jpg)
 
 
-# Information
+![Alt WhatsApp Message](whatsapp_msg.jpg)
 
+
+# Information Page
+
+The information page contains informative interactive plots on different components of food and FAQs. The informative graphs show the top food items based on the Calorie count, Proteins, Fats, Saturated Fats, Fiber, & Carbohydrates.
+A graph for Calorie count will look like this,
+
+![Alt Info](info.jpeg)
+
+# Restaurant Visitor Forecasting
+
+Restaurants operate in the tricky business of serving perishable products. Accurately forecasting customer demand is essential for increasing profits, since it allows for reduction of food wastage and labor costs. With forecasts, managers can predict how much perishable inventory to keep on hand and predict how much food should be prepped at the beginning of each day. Managers can also schedule sufficient staff according to forecasts to ensure customer satisfaction during normal and peak hours. Increased scheduling efficiency also benefits the staff because managers can more easily ensure their staff are assigned enough shifts for their livelihood and are not being overworked.
+
+![Alt visitor forecasting](visitor_forecasting1.jpeg)
+
+
+# Analytics System
+
+* Determining the age and gender of customers at a restaurant can provide valuable insights into customer demographics, which can be used to make informed business decisions.
+* These details of age & gender will be stored in a database along with the food they've ordered. 
+* By storing these details, we can get various analytical insights such as "In which age group are most of my customers falling in? " OR "What is the distribution between male & female customers?" 
+* Having these details can allow the restaurant owners to know more about their customers & will allow the owner to make the required marketing plan for the future.
+
+ ![Alt Analytics](analytics.jpeg)
+
+ # Tech Stacks Used
+ * For ML/DL/AI : 
+   TensorFlow
+   Numpy, Pandas, and cv libraries
+ * Cloud : 
+   Microsoft Azure Map's API 
+ * Database : 
+   MongoDB
+ * For interface :
+   Streamlit library
+
+ 
+# Execution Instructions 
+
+  Run the code by executing the following command : streamlit run ui_final.py
 
 
 
