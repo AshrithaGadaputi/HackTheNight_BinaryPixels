@@ -26,13 +26,17 @@ The Streamlit-Authenticator library was used for designing it.
 * These hashed passwords have been stored in a pickle file using which authentication can be performed.
 * In case a person inputs the incorrect credentials, they will be displayed with an error message & will not be allowed access to the interface.
 
+![Alt Login](https://github.com/AshrithaGadaputi/HackTheNight_BinaryPixels/blob/master/login_page.jpeg)
+
 
 # Sections:
-<img>
+
+![Alt Sections](https://github.com/AshrithaGadaputi/HackTheNight_BinaryPixels/blob/master/website_options.jpeg)
 
 # Home Page
 The home page gives an overview of the recommendation system.
-<img>
+
+![Alt Home Page](home_page.jpeg)
 
 #Food
 This section consists of Emotion Based Food Recommendation System
@@ -45,7 +49,12 @@ If the restaurant owner is able to recommend food that the customer will like ef
 * Once we get the emotion, we fetch the suitable food items from the MYSQL database using the respective queries.
 * We display the food item that should be recommended to the customer. The company canteen owner can recommend this food item to the customer.
 
-<img>
+![Alt Emotion Based Recommendation](recommendation_input.jpeg)
+
+
+![Alt Emotion Based Recommendation](result_of_recommendation.jpeg)
+
+
 
 # NGO Connectivity
 * Everyday restaurants throw out a large amount of food, which could rather be donated to an NGO helping many people. 
@@ -53,7 +62,7 @@ If the restaurant owner is able to recommend food that the customer will like ef
 * Once the nearest NGO's are determined, we send a "Whatsapp message" automatically asking whether the NGO is willing to accept the food item OR not.
 * In case one of the NGO's are not willing to, then we will make the API to find the next nearest NGO, and the process would continue. 
 
-<img>
+
 
 # Information
 
