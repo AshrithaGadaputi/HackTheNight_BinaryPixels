@@ -1,1 +1,3 @@
-# HackTheNight_BinaryPixels
+# Reducing Food Wastage using Artificial Intelligence
+
+
