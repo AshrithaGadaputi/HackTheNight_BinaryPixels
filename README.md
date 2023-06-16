@@ -3,6 +3,8 @@
 # Note:
 # Refer to [final output file](https://github.com/AshrithaGadaputi/HackTheNight_BinaryPixels/blob/master/ui_final.py)
 
+All the three Deep Learning Models are deployed on cloud.
+
 
 # Problem
 * The food waste problem faced by restaurants in India is a significant issue that contributes to the overall food waste problem in the country. 
